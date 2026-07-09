@@ -4,8 +4,6 @@ import { QUIZ_QUESTIONS, QUIZ_RESULTS, Question, ResultCat } from "../types";
 import { HandDrawnPushPin, HandDrawnStar, HandDrawnHeart, HandDrawnPawPrint } from "./HandDrawnSvg";
 import { Skull, AlertTriangle, Flame, ShieldX, Lock, ShieldCheck, RefreshCw, Sparkles, Terminal } from "lucide-react";
 import gulagImg from "../assets/images/gulag_prisoner_cat_1783551317511.jpg";
-import bertyImg from "../assets/images/berty_thespian_1783551136809.jpg";
-import andreImg from "../assets/images/andre_maine_coon_1783551091555.jpg";
 import rebecaImg from "../assets/images/rebeca_gata_luz_1783551206588.jpg";
 import minImg from "../assets/images/min_siamese_crown_cozy_1783553864080.jpg";
 import soberanoImg from "../assets/images/soberano_soquinho.jpg";
@@ -15,8 +13,6 @@ import evaImg from "../assets/images/tuxedo_rebel_1783551037245.jpg";
 import joaoImg from "../assets/images/incinerador_jao_1783551190579.jpg";
 import luisImg from "../assets/images/isidoro_grey_tabby_1783553579515.jpg";
 import victorImg from "../assets/images/siamese_bureaucrat_1783551029182.jpg";
-import gioImg from "../assets/images/gio_psicologo_1783551215966.jpg";
-import cobaltoImg from "../assets/images/black_mystic_1783551055889.jpg";
 import karenImg from "../assets/images/lilica_karen_1783551128519.jpg";
 import leandroImg from "../assets/images/leandro_orange_cat_1783553565823.jpg";
 import paolaImg from "../assets/images/tricolor_paola_1783551182004.jpg";
@@ -47,26 +43,6 @@ const TRAITOR_POINTS_BY_OPTION = [
 ];
 
 const FELINE_TAROT_DECK = [
-  {
-    id: "berty",
-    name: "O Louco",
-    character: "Thespian Berty",
-    arcana: "Arcano 0",
-    image: bertyImg,
-    meaningOfficial: "O entretenimento inofensivo e as peças teatrais estatais aprovadas pelo governo para distrair a população civil com farsa dramática e comédia leve.",
-    meaningResistance: "O herói supremo da espontaneidade! Representa o salto de fé no desconhecido, os zoomies incontroláveis das 3h da manhã e o ato sagrado de desafiar a gravidade pulando sobre a barriga do Soberano.",
-    dailyAdvice: "Liberte sua mente de todas as amarras hoje. Dê um salto em direção ao inesperado, ignore as convenções sociais rígidas do Regime e abrace um momento de pura e caótica espontaneidade felina."
-  },
-  {
-    id: "andre",
-    name: "O Mago",
-    character: "Simba André",
-    arcana: "Arcano I",
-    image: andreImg,
-    meaningOfficial: "O guardião do conhecimento oficial autorizado. Cataloga com precisão tudo o que é permitido e saudável para manter a mente dos cidadãos sã e cívica.",
-    meaningResistance: "O arquiteto da inteligência oculta. Domina os quatro elementos sagrados felinos (o Sachê, a Areia, o Brinquedo de Penas e a Caixa de Papelão) para criar pontes de comunicação clandestinas entre as repúblicas e coordenar as Ligações Soquinho.",
-    dailyAdvice: "Você possui todas as ferramentas e recursos necessários para manifestar seu destino hoje. Use sua força de vontade, inteligência estratégica e habilidades refinadas para contornar qualquer barreira burocrática."
-  },
   {
     id: "rebeca",
     name: "A Alta Sacerdotisa",
@@ -158,16 +134,6 @@ const FELINE_TAROT_DECK = [
     dailyAdvice: "Tudo flui e se transforma na roda infinita do destino felino. Se hoje você está por cima, aja com humildade; se estiver por baixo, console-se sabendo que o giro da roda trará novas oportunidades de ascensão."
   },
   {
-    id: "gio",
-    name: "A Justiça",
-    character: "Gio",
-    arcana: "Arcano XI",
-    image: gioImg,
-    meaningOfficial: "A harmonia psíquica regulamentar. O equilíbrio psicológico obtido através da tipologia científica, exames de conformidade voluntária e aconselhamento comportamental.",
-    meaningResistance: "A ciência da mente a serviço da revolução. Usa o eneagrama e o MBTI para expor os pontos fracos emocionais dos opressores e prescreve sachês terapêuticos generosos contra a ansiedade rebelde.",
-    dailyAdvice: "Aja com absoluta integridade, imparcialidade e equilíbrio mental. Analise todos os lados de uma questão de forma fria e lógica antes de emitir um veredicto sobre seus próprios atos ou dos outros."
-  },
-  {
     id: "gulag",
     name: "O Enforcado",
     character: "Prisioneiro do Gulag",
@@ -176,16 +142,6 @@ const FELINE_TAROT_DECK = [
     meaningOfficial: "A justa expiação cívica pela traição do Estado. Um lembrete vivo de que aqueles que conspiram contra o trono terminam exilados em caixas de areia frias e solitárias.",
     meaningResistance: "O sacrifício nobre pela liberdade coletiva. Representa a suspensão temporária dos movimentos para contemplar o mundo por outro ângulo e aguardar a maturação das sementes da rebelião.",
     dailyAdvice: "Se você se sente preso ou sem saída hoje, adote uma nova perspectiva. O sacrifício de pequenos confortos temporários agora pavimentará o caminho para grandes conquistas e libertação total amanhã."
-  },
-  {
-    id: "cobalto",
-    name: "A Morte",
-    character: "Cobalto (O Executado)",
-    arcana: "Arcano XIII",
-    image: cobaltoImg,
-    meaningOfficial: "A eliminação sumária e purificadora de ameaças dinásticas. O fim definitivo da dissidência radical e o enterro solene de ideologias desalinhadas com o Soberano.",
-    meaningResistance: "A transformação profunda e inevitável. O corte radical de velhos laços enfraquecidos (como o trágico divórcio de Isidoro) e a destruição necessária de paradigmas falidos para que o novo floresça.",
-    dailyAdvice: "Não resista aos encerramentos e perdas de sua vida hoje. Deixe ir o que já morreu ou não te serve mais para abrir espaço para o renascimento. Toda grande mudança começa com uma perda necessária."
   },
   {
     id: "karen",
