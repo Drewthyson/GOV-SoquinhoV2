@@ -10,6 +10,21 @@ import rebecaImg from "../assets/images/rebeca_gata_luz_1783551206588.jpg";
 import minImg from "../assets/images/min_siamese_crown_cozy_1783553864080.jpg";
 import soberanoImg from "../assets/images/soberano_soquinho.jpg";
 import gustavoImg from "../assets/images/gustavo_hierofante_1783551101871.jpg";
+import raphaelImg from "../assets/images/raphael_dionisio_1783551110967.jpg";
+import evaImg from "../assets/images/tuxedo_rebel_1783551037245.jpg";
+import joaoImg from "../assets/images/incinerador_jao_1783551190579.jpg";
+import luisImg from "../assets/images/isidoro_grey_tabby_1783553579515.jpg";
+import victorImg from "../assets/images/siamese_bureaucrat_1783551029182.jpg";
+import gioImg from "../assets/images/gio_psicologo_1783551215966.jpg";
+import cobaltoImg from "../assets/images/black_mystic_1783551055889.jpg";
+import karenImg from "../assets/images/lilica_karen_1783551128519.jpg";
+import leandroImg from "../assets/images/leandro_orange_cat_1783553565823.jpg";
+import paolaImg from "../assets/images/tricolor_paola_1783551182004.jpg";
+import liviaImg from "../assets/images/nina_tricolor_cat_1783553592941.jpg";
+import nakiImg from "../assets/images/mavis_nakeri_1783551173273.jpg";
+import gatoluzImg from "../assets/images/orange_alienated_1783551046312.jpg";
+import kosakiImg from "../assets/images/kosaki_ruan_1783551119892.jpg";
+import mundoImg from "../assets/images/tortoiseshell_goddess_1783551065194.jpg";
 
 interface DictatedQuizProps {
   isResistanceMode: boolean;
@@ -97,7 +112,7 @@ const FELINE_TAROT_DECK = [
     name: "Os Enamorados",
     character: "Dionísio Raphael",
     arcana: "Arcano VI",
-    image: "/src/assets/images/raphael_dionisio_1783551110967.jpg",
+    image: raphaelImg,
     meaningOfficial: "O alerta moral contra as paixões descontroladas, o desvio das obrigações cívicas e o consumo clandestino de substâncias estimulantes na calada da noite.",
     meaningResistance: "A união sagrada das almas livres! Celebra a liberdade de escolha, o amor sem fronteiras, os rituais hedonistas regados a catnip premium e as orgias de carinho à luz de velas.",
     dailyAdvice: "Você está diante de uma escolha importante que exige o alinhamento perfeito entre sua mente e seu coração. Siga o caminho que ressoa com sua verdade interior e não tenha medo de demonstrar seu afeto."
@@ -107,7 +122,7 @@ const FELINE_TAROT_DECK = [
     name: "O Carro",
     character: "Eva (A Revolucionária)",
     arcana: "Arcano VII",
-    image: "/src/assets/images/tuxedo_rebel_1783551037245.jpg",
+    image: evaImg,
     meaningOfficial: "O perigo do ímpeto imprudente e das revoluções fracassadas. Lembra as consequências de desafiar o trono legítimo e terminar lançado ao exílio permanente além das fronteiras.",
     meaningResistance: "O avanço imparável em direção à vitória cívica! Representa a força de vontade concentrada, a carruagem de guerra que rompe os bloqueios da guarda e a coragem inabalável de liderar a carga contra o opressor.",
     dailyAdvice: "Mantenha o foco absoluto e a determinação obstinada hoje. Controle os impulsos conflitantes em sua mente e dirija suas energias com firmeza para alcançar suas metas mais ambiciosas."
@@ -117,7 +132,7 @@ const FELINE_TAROT_DECK = [
     name: "A Força",
     character: "O Incinerador Jão",
     arcana: "Arcano VIII",
-    image: "/src/assets/images/incinerador_jao_1783551190579.jpg",
+    image: joaoImg,
     meaningOfficial: "A pacificação do espírito selvagem e insubordinado. A submissão pacífica e voluntária de quem outrora liderava rebeliões sangrentas aos braços acolhedores do civismo estatal.",
     meaningResistance: "O poder da paciência e da ferocidade latente. Simboliza a força interior que simula obediência perfeita enquanto aguarda o momento astronômico perfeito para acender a centelha da revolta.",
     dailyAdvice: "A verdadeira força não reside em rosnados altos ou garras expostas, mas na capacidade de dominar seus instintos e agir com calma calculada. Use a gentileza estratégica para subjugar seus adversários."
@@ -127,7 +142,7 @@ const FELINE_TAROT_DECK = [
     name: "O Eremita",
     character: "Isidoro Luís",
     arcana: "Arcano IX",
-    image: "/src/assets/images/isidoro_grey_tabby_1783553579515.jpg",
+    image: luisImg,
     meaningOfficial: "A virtude do isolamento contemplativo. O cidadão discreto que foca exclusivamente em sua sesta diária e mantém-se alheio aos debates barulhentos da sociedade.",
     meaningResistance: "O mestre das redes de fofocas e das subtramas mais escabrosas do submundo. Ele tudo vê com seus olhos semicerrados e ilumina as mentiras estatais com sua lanterna de sabedoria clandestina.",
     dailyAdvice: "Afaste-se do barulho e do caos do ambiente externo. Busque as respostas dentro de si mesmo através do silêncio e da autorreflexão. O recolhimento trará mais revelações que qualquer discussão pública."
@@ -137,7 +152,7 @@ const FELINE_TAROT_DECK = [
     name: "A Roda da Fortuna",
     character: "Victor (O Deposto)",
     arcana: "Arcano X",
-    image: "/src/assets/images/siamese_bureaucrat_1783551029182.jpg",
+    image: victorImg,
     meaningOfficial: "As inevitáveis mudanças administrativas regulamentares e a realocação saudável de recursos sob a governança benevolente do Soberano.",
     meaningResistance: "O giro dramático do destino político! Victor, outrora o todo-poderoso administrador executivo ao lado do Soquinho, foi arremessado ao exílio em um piscar de olhos. Prova que os tiranos de hoje serão os fugitivos de amanhã.",
     dailyAdvice: "Tudo flui e se transforma na roda infinita do destino felino. Se hoje você está por cima, aja com humildade; se estiver por baixo, console-se sabendo que o giro da roda trará novas oportunidades de ascensão."
@@ -147,7 +162,7 @@ const FELINE_TAROT_DECK = [
     name: "A Justiça",
     character: "Gio",
     arcana: "Arcano XI",
-    image: "/src/assets/images/gio_psicologo_1783551215966.jpg",
+    image: gioImg,
     meaningOfficial: "A harmonia psíquica regulamentar. O equilíbrio psicológico obtido através da tipologia científica, exames de conformidade voluntária e aconselhamento comportamental.",
     meaningResistance: "A ciência da mente a serviço da revolução. Usa o eneagrama e o MBTI para expor os pontos fracos emocionais dos opressores e prescreve sachês terapêuticos generosos contra a ansiedade rebelde.",
     dailyAdvice: "Aja com absoluta integridade, imparcialidade e equilíbrio mental. Analise todos os lados de uma questão de forma fria e lógica antes de emitir um veredicto sobre seus próprios atos ou dos outros."
@@ -157,7 +172,7 @@ const FELINE_TAROT_DECK = [
     name: "O Enforcado",
     character: "Prisioneiro do Gulag",
     arcana: "Arcano XII",
-    image: "/src/assets/images/gulag_prisoner_cat_1783551317511.jpg",
+    image: gulagImg,
     meaningOfficial: "A justa expiação cívica pela traição do Estado. Um lembrete vivo de que aqueles que conspiram contra o trono terminam exilados em caixas de areia frias e solitárias.",
     meaningResistance: "O sacrifício nobre pela liberdade coletiva. Representa a suspensão temporária dos movimentos para contemplar o mundo por outro ângulo e aguardar a maturação das sementes da rebelião.",
     dailyAdvice: "Se você se sente preso ou sem saída hoje, adote uma nova perspectiva. O sacrifício de pequenos confortos temporários agora pavimentará o caminho para grandes conquistas e libertação total amanhã."
@@ -167,7 +182,7 @@ const FELINE_TAROT_DECK = [
     name: "A Morte",
     character: "Cobalto (O Executado)",
     arcana: "Arcano XIII",
-    image: "/src/assets/images/black_mystic_1783551055889.jpg",
+    image: cobaltoImg,
     meaningOfficial: "A eliminação sumária e purificadora de ameaças dinásticas. O fim definitivo da dissidência radical e o enterro solene de ideologias desalinhadas com o Soberano.",
     meaningResistance: "A transformação profunda e inevitável. O corte radical de velhos laços enfraquecidos (como o trágico divórcio de Isidoro) e a destruição necessária de paradigmas falidos para que o novo floresça.",
     dailyAdvice: "Não resista aos encerramentos e perdas de sua vida hoje. Deixe ir o que já morreu ou não te serve mais para abrir espaço para o renascimento. Toda grande mudança começa com uma perda necessária."
@@ -177,7 +192,7 @@ const FELINE_TAROT_DECK = [
     name: "A Temperança",
     character: "Lilica (Karen)",
     arcana: "Arcano XIV",
-    image: "/src/assets/images/lilica_karen_1783551128519.jpg",
+    image: karenImg,
     meaningOfficial: "O decoro estético, a beleza regrada e a elegância moderada exibidas sob a luz pública como símbolo da harmonia pacífica da República.",
     meaningResistance: "A alquimia do disfarce inteligente. Ela mistura as cores mais vibrantes com sombras furtivas, costurando fardas revolucionárias elegantes a partir de velhas cortinas do Ministério com graça inigualável.",
     dailyAdvice: "Busque a moderação e o equilíbrio estético hoje. Combine elementos opostos com diplomacia, paciência e refinamento. Mantenha os bigodes alinhados e a elegância impecável perante as turbulências."
@@ -187,7 +202,7 @@ const FELINE_TAROT_DECK = [
     name: "O Diabo",
     character: "Leandro",
     arcana: "Arcano XV",
-    image: "/src/assets/images/leandro_orange_cat_1783553565823.jpg",
+    image: leandroImg,
     meaningOfficial: "As tentações vulgares da imoralidade, do catnip contrabandeado e da desobediência instintiva que aprisionam a alma felina no abismo da devassidão.",
     meaningResistance: "A emancipação pelo questionamento absoluto! Simboliza a ironia ácida que liberta as mentes dos dogmas estéreis, mostrando que as amarras que nos prendem são puras ilusões cívicas.",
     dailyAdvice: "Exerça seu ceticismo e desconfie de falsas promessas de sachês grátis hoje. Questione as regras aparentemente bondosas, mas que na verdade limitam seu espírito selvagem e brincalhão."
@@ -197,7 +212,7 @@ const FELINE_TAROT_DECK = [
     name: "A Torre",
     character: "General Paola",
     arcana: "Arcano XVI",
-    image: "/src/assets/images/tricolor_paola_1783551182004.jpg",
+    image: paolaImg,
     meaningOfficial: "A queda inevitável de relacionamentos rebeldes ilegítimos e o colapso dramático das esperanças de traidores expostos pela lei militar.",
     meaningResistance: "A demolição libertadora das velhas estruturas! O choque repentino do copo de vidro empurrado da mesa que força todos a acordarem para a realidade, derrubando dogmas com patadas enérgicas.",
     dailyAdvice: "Estruturas construídas sobre bases falsas estão destinadas a ruir de forma súbita. Se algo desabar em sua rotina hoje, não desespere: use os escombros para reconstruir uma fundação muito mais forte e verdadeira."
@@ -207,7 +222,7 @@ const FELINE_TAROT_DECK = [
     name: "A Estrela",
     character: "Nina Lívia",
     arcana: "Arcano XVII",
-    image: "/src/assets/images/nina_tricolor_cat_1783553592941.jpg",
+    image: liviaImg,
     meaningOfficial: "A exaltação festiva da pátria Soquete. O otimismo alegre e os desfiles coloridos organizados oficialmente para celebrar a glória do civismo pacífico.",
     meaningResistance: "O farol de esperança que brilha na noite mais fria. Ela derrama água e sachê de salmão sobre os desesperados do submundo, garantindo que o brilho nos olhos da resistência nunca seja sufocado pela opressão.",
     dailyAdvice: "Abra seu coração para o otimismo e a renovação da foi hoje. Há uma luz espiritual guiando seus passos; compartilhe seu brilho, console um amigo deprimido e confie que o amanhã será mais caloroso."
@@ -217,7 +232,7 @@ const FELINE_TAROT_DECK = [
     name: "A Lua",
     character: "Mavis (Naki)",
     arcana: "Arcano XVIII",
-    image: "/src/assets/images/mavis_nakeri_1783551173273.jpg",
+    image: nakiImg,
     meaningOfficial: "O mistério controlado da noite oficial do governo. Os retratos sombrios em mídias de propaganda que representam a profundidade controlada e respeitada da nação.",
     meaningResistance: "A deusa mística do culto selvagem e clandestino da floresta! Rege a Seita Anti-Acasalamento e os segredos noturnos guardados na imaginação artística, onde a intuição afiada corta as ilusões diurnas do Regime.",
     dailyAdvice: "Navegue pelo reino dos sonhos, das sombras e da intuição hoje. Cuidado com os medos infundados e os fantasmas projetados pela paranoia do governo. Olhe além do véu das aparências enganosas."
@@ -227,7 +242,7 @@ const FELINE_TAROT_DECK = [
     name: "O Sol",
     character: "O Gato da Luz",
     arcana: "Arcano XIX",
-    image: "/src/assets/images/orange_alienated_1783551046312.jpg",
+    image: gatoluzImg,
     meaningOfficial: "O brilho absoluto da verdade civil que afasta as trevas e aquece o pelo de todos os cidadãos trabalhadores em perfeita obediência e alegria regulamentar.",
     meaningResistance: "A divindade solar mística de pura vitalidade felina! Iluminação espiritual, energia cósmica indomada e o calor reconfortante que promete que, depois de toda noite de opressão fria, o sol nascerá para todos.",
     dailyAdvice: "Brilhe com toda a sua intensidade hoje! É um momento de clareza absoluta, vitalidade transbordante, sucesso e alegria sincera. Compartilhe seu calor, corra livremente pelos pontos de luz no chão e celebre estar vivo."
@@ -237,7 +252,7 @@ const FELINE_TAROT_DECK = [
     name: "O Julgamento",
     character: "Ruan",
     arcana: "Arcano XX",
-    image: "/src/assets/images/kosaki_ruan_1783551119892.jpg",
+    image: kosakiImg,
     meaningOfficial: "A vigilância e auditoria cívica implacável. Avaliação rigorosa da conduta de cada indivíduo, onde mídias são censuradas e a lealdade é pesada na balança do Ministério.",
     meaningResistance: "O controle burocrático subvertido. O censor astuto que usa sua caneta vermelha oficial para rasurar relatórios de insurgência e facilitar a passagem segura de rebeldes pelas guaritas e fronteiras.",
     dailyAdvice: "É hora de prestar contas consigo mesmo e tomar decisões de longo prazo. Liberte-se de velhos arrependimentos, avalie suas ações passadas com honestidade e prepare-se para um novo ciclo de maturidade e autorredenção."
@@ -247,7 +262,7 @@ const FELINE_TAROT_DECK = [
     name: "O Mundo",
     character: "A Grande Sesta Cósmica",
     arcana: "Arcano XXI",
-    image: "/src/assets/images/tortoiseshell_goddess_1783551065194.jpg",
+    image: mundoImg,
     meaningOfficial: "A conclusão perfeita do plano quinquenal de harmonia nacional. A sesta cívica em massa onde todos os felinos dormem em perfeita sincronia e paz regulamentar sob a glória eterna do Soberano.",
     meaningResistance: "A libertação completa e a integração cósmica de todas as repúblicas de gatos livres! A conquista do território supremo e pacificado do carinho, onde as barreiras artificiais caem e a grande harmonia universal se consagra.",
     dailyAdvice: "Você alcançou a plenitude e a conclusão bem-sucedida de um grande ciclo em sua vida hoje. Celebre suas conquistas, sinta-se em perfeita harmonia com o universo e desfrute de um merecido descanso sabendo que sua jornada foi vitoriosa."
