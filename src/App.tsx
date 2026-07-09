@@ -6,6 +6,7 @@ import { DictatedQuiz } from "./components/DictatedQuiz";
 import { ResistanceDiary } from "./components/ResistanceDiary";
 import { IcebergHarmonia } from "./components/IcebergHarmonia";
 import { ConstitutionSection } from "./components/ConstitutionSection";
+import soberanoImg from "./assets/images/soberano_soquinho.jpg";
 import {
   HandDrawnArrow,
   HandDrawnPushPin,
@@ -247,7 +248,7 @@ export default function App() {
               <div className="absolute inset-0 bg-neutral-900/10 mix-blend-overlay z-10"></div>
               <div className="absolute inset-0 bg-orange-900/5 mix-blend-color-burn z-10"></div>
               <img
-                src="/assets/images/soberano_soquinho.jpg"
+                src={soberanoImg}
                 alt="Soberano Soquinho"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover"
