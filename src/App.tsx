@@ -247,7 +247,7 @@ export default function App() {
               <div className="absolute inset-0 bg-neutral-900/10 mix-blend-overlay z-10"></div>
               <div className="absolute inset-0 bg-orange-900/5 mix-blend-color-burn z-10"></div>
               <img
-                src="/src/assets/images/soberano_soquinho.jpg"
+                src="/assets/images/soberano_soquinho.jpg"
                 alt="Soberano Soquinho"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover"
