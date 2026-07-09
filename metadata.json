@@ -1,0 +1,6 @@
+{
+  "name": "República Gato Soquinho",
+  "description": "Memorial de 2 anos da República Gato Soquinho, celebrando a comunidade, nossos membros e nossa história sob os olhos vigilantes do Regime.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
