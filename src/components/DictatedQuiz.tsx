@@ -3,6 +3,13 @@ import { motion, AnimatePresence } from "motion/react";
 import { QUIZ_QUESTIONS, QUIZ_RESULTS, Question, ResultCat } from "../types";
 import { HandDrawnPushPin, HandDrawnStar, HandDrawnHeart, HandDrawnPawPrint } from "./HandDrawnSvg";
 import { Skull, AlertTriangle, Flame, ShieldX, Lock, ShieldCheck, RefreshCw, Sparkles, Terminal } from "lucide-react";
+import gulagImg from "../assets/images/gulag_prisoner_cat_1783551317511.jpg";
+import bertyImg from "../assets/images/berty_thespian_1783551136809.jpg";
+import andreImg from "../assets/images/andre_maine_coon_1783551091555.jpg";
+import rebecaImg from "../assets/images/rebeca_gata_luz_1783551206588.jpg";
+import minImg from "../assets/images/min_siamese_crown_cozy_1783553864080.jpg";
+import soberanoImg from "../assets/images/soberano_soquinho.jpg";
+import gustavoImg from "../assets/images/gustavo_hierofante_1783551101871.jpg";
 
 interface DictatedQuizProps {
   isResistanceMode: boolean;
@@ -30,7 +37,7 @@ const FELINE_TAROT_DECK = [
     name: "O Louco",
     character: "Thespian Berty",
     arcana: "Arcano 0",
-    image: "/src/assets/images/berty_thespian_1783551136809.jpg",
+    image: bertyImg,
     meaningOfficial: "O entretenimento inofensivo e as peças teatrais estatais aprovadas pelo governo para distrair a população civil com farsa dramática e comédia leve.",
     meaningResistance: "O herói supremo da espontaneidade! Representa o salto de fé no desconhecido, os zoomies incontroláveis das 3h da manhã e o ato sagrado de desafiar a gravidade pulando sobre a barriga do Soberano.",
     dailyAdvice: "Liberte sua mente de todas as amarras hoje. Dê um salto em direção ao inesperado, ignore as convenções sociais rígidas do Regime e abrace um momento de pura e caótica espontaneidade felina."
@@ -40,7 +47,7 @@ const FELINE_TAROT_DECK = [
     name: "O Mago",
     character: "Simba André",
     arcana: "Arcano I",
-    image: "/src/assets/images/andre_maine_coon_1783551091555.jpg",
+    image: andreImg,
     meaningOfficial: "O guardião do conhecimento oficial autorizado. Cataloga com precisão tudo o que é permitido e saudável para manter a mente dos cidadãos sã e cívica.",
     meaningResistance: "O arquiteto da inteligência oculta. Domina os quatro elementos sagrados felinos (o Sachê, a Areia, o Brinquedo de Penas e a Caixa de Papelão) para criar pontes de comunicação clandestinas entre as repúblicas e coordenar as Ligações Soquinho.",
     dailyAdvice: "Você possui todas as ferramentas e recursos necessários para manifestar seu destino hoje. Use sua força de vontade, inteligência estratégica e habilidades refinadas para contornar qualquer barreira burocrática."
@@ -50,7 +57,7 @@ const FELINE_TAROT_DECK = [
     name: "A Alta Sacerdotisa",
     character: "Guardiã Rebeca",
     arcana: "Arcano II",
-    image: "/src/assets/images/rebeca_gata_luz_1783551206588.jpg",
+    image: rebecaImg,
     meaningOfficial: "A pureza inquestionável da Palavra do Gato da Luz. Promove a moralidade exemplar, a educação infantil carinhosa e o acolhimento afetuoso dos órfãos da pátria.",
     meaningResistance: "A mentora mansa que camufla o alimento e os ideais da guerrilha sob escrituras sagradas. Guarda segredos profundos no templo e desvia secretamente os sachês mais nutritivos para o futuro da revolução.",
     dailyAdvice: "Nem todo mistério deve ser revelado ao mundo físico. Confie na sua intuição aguçada e guarde seus segredos mais preciosos em silêncio absoluto. Um olhar enigmático diz muito mais que um miado alto."
@@ -60,7 +67,7 @@ const FELINE_TAROT_DECK = [
     name: "A Imperatriz",
     character: "Líder Suprema Min",
     arcana: "Arcano III",
-    image: "/src/assets/images/min_siamese_crown_cozy_1783553864080.jpg",
+    image: minImg,
     meaningOfficial: "A personificação da abundância soberana e fertilidade estatal. Representa o fluxo contínuo de sachês premium e a autoridade divina, onde seu capricho dita a lei absoluta.",
     meaningResistance: "A força criativa e devastadoramente imprevisível. Indica uma liderança sedutora baseada na empatia carismática, mas capaz de punições severas caso seus desejos não sejam atendidos com imediata presteza.",
     dailyAdvice: "Aproveite a beleza, o conforto físico e a generosidade da vida hoje. É um momento de nutrição e abundância; mime a si mesmo com sua sesta favorita em um local ensolarado e farto."
@@ -70,7 +77,7 @@ const FELINE_TAROT_DECK = [
     name: "O Imperador",
     character: "Soberano Soquinho",
     arcana: "Arcano IV",
-    image: "/src/assets/images/soberano_soquinho.jpg",
+    image: soberanoImg,
     meaningOfficial: "A base de sustentação da nação, a ordem estrutural insuperável, a lei de ferro e a proteção intransponível das fronteiras cívicas. O arquiteto supremo da estabilidade social.",
     meaningResistance: "A representação da autoridade inflexível, do controle territorial obsessivo e da burocracia intimidadora. Simboliza as regras impostas, a vigilância constante do sofá e as sentenças do Gulag.",
     dailyAdvice: "Estabeleça ordem e limites claros em sua vida hoje. Tome o controle da situação com firmeza e autoridade, mas lembre-se de que um bom líder governa com justiça estrutural, e não apenas com garras afiadas."
@@ -80,7 +87,7 @@ const FELINE_TAROT_DECK = [
     name: "O Hierofante",
     character: "Grubes (Gustavo)",
     arcana: "Arcano V",
-    image: "/src/assets/images/gustavo_hierofante_1783551101871.jpg",
+    image: gustavoImg,
     meaningOfficial: "O administrador dos canais sagrados de comunicação estatal. Zela pelas doutrinas cívicas estabelecidas e pela preservação impecável dos arquivos de dados.",
     meaningResistance: "O decodificador gentil de rituais e segredos cibernéticos. Embora sua lógica pareça alinhada ao governo, ele oferece proteção inestimável à privacidade digital da resistência, descriptografando verdades ocultas.",
     dailyAdvice: "Busque orientação no conhecimento estruturado e nas tradições consolidadas. É um bom momento para estudar padrões de comportamento, ler logs antigos e alinhar sua conduta ética com valores elevados."
@@ -851,7 +858,7 @@ export const DictatedQuiz: React.FC<DictatedQuizProps> = ({ isResistanceMode }) 
 
                 <div className="aspect-square bg-zinc-800 overflow-hidden relative border-2 border-red-900">
                   <img
-                    src="/src/assets/images/gulag_prisoner_cat_1783551317511.jpg"
+                    src={gulagImg}
                     alt="Prisioneiro Felino"
                     referrerPolicy="no-referrer"
                     className="w-full h-full object-cover filter contrast-[1.05] grayscale-[0.2]"
