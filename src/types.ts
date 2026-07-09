@@ -1,3 +1,25 @@
+import andreMaineCoonImg from "./assets/images/andre_maine_coon_1783551091555.jpg";
+import gustavoHierofanteImg from "./assets/images/gustavo_hierofante_1783551101871.jpg";
+import raphaelDionisioImg from "./assets/images/raphael_dionisio_1783551110967.jpg";
+import kosakiRuanImg from "./assets/images/kosaki_ruan_1783551119892.jpg";
+import lilicaKarenImg from "./assets/images/lilica_karen_1783551128519.jpg";
+import bertyThespianImg from "./assets/images/berty_thespian_1783551136809.jpg";
+import leandroOrangeCatImg from "./assets/images/leandro_orange_cat_1783553565823.jpg";
+import isidoroGreyTabbyImg from "./assets/images/isidoro_grey_tabby_1783553579515.jpg";
+import minSiameseCrownCozyImg from "./assets/images/min_siamese_crown_cozy_1783553864080.jpg";
+import mavisNakeriImg from "./assets/images/mavis_nakeri_1783551173273.jpg";
+import tricolorPaolaImg from "./assets/images/tricolor_paola_1783551182004.jpg";
+import incineradorJaoImg from "./assets/images/incinerador_jao_1783551190579.jpg";
+import ninaTricolorCatImg from "./assets/images/nina_tricolor_cat_1783553592941.jpg";
+import rebecaGataLuzImg from "./assets/images/rebeca_gata_luz_1783551206588.jpg";
+import gioPsicologoImg from "./assets/images/gio_psicologo_1783551215966.jpg";
+import siameseBureaucratImg from "./assets/images/siamese_bureaucrat_1783551029182.jpg";
+import tuxedoRebelImg from "./assets/images/tuxedo_rebel_1783551037245.jpg";
+import orangeAlienatedImg from "./assets/images/orange_alienated_1783551046312.jpg";
+import blackMysticImg from "./assets/images/black_mystic_1783551055889.jpg";
+import tortoiseshellGoddessImg from "./assets/images/tortoiseshell_goddess_1783551065194.jpg";
+import persianNobleImg from "./assets/images/persian_noble_1783551073975.jpg";
+
 export interface Member {
   id: string;
   name: string;
@@ -54,7 +76,7 @@ export const MEMBERS_DATA: Member[] = [
     birthday: "08 de Janeiro",
     roleRegime: "Guardião do Conhecimento Ancestral",
     roleResistance: "Conector de Repúblicas e Mentor das Ligações Soquinho",
-    photoUrl: "/src/assets/images/andre_maine_coon_1783551091555.jpg",
+    photoUrl: andreMaineCoonImg,
     regimeBio: "Simba (André) é o gato mais velho da República. Atua como professor e conselheiro regulamentar, catalogando animes, filmes, livros e jogos permitidos pelo Regime. Seu status é estritamente regulamentar, mantendo a ordem com sabedoria ancestral.",
     resistanceBio: "Nas sombras, Simba usa seus vastos contatos com outras repúblicas para coordenar as lendárias Ligações Soquinho. Por trás de sua postura gentil, engraçada e profundamente empática, esconde-se a mente brilhante e pensadora de um místico INTJ.",
     tilt: "-rotate-2",
@@ -70,7 +92,7 @@ export const MEMBERS_DATA: Member[] = [
     birthday: "23 de Fevereiro",
     roleRegime: "Administrador-Chefe de Comunicação e Arquivos do Estado",
     roleResistance: "Guardião dos Registros Clandestinos e Descriptografia",
-    photoUrl: "/src/assets/images/gustavo_hierofante_1783551101871.jpg",
+    photoUrl: gustavoHierofanteImg,
     regimeBio: '"O Hierofante" é o administrador vital da República, responsável por organizar, proteger e controlar todos os arquivos de dados e comunicações oficiais do governo com precisão lógica impecável.',
     resistanceBio: "Sendo um INTP 6 analítico e profundamente empático, Gustavo usa seu controle sobre a infraestrutura de comunicação para resguardar a rede da resistência de forma gentil e protetora, agindo como um farol de suporte.",
     tilt: "rotate-3",
@@ -86,7 +108,7 @@ export const MEMBERS_DATA: Member[] = [
     birthday: "24 de Junho",
     roleRegime: "Deus do Culto da Promiscuidade",
     roleResistance: "Líder dos Boêmios e da Libertinagem Geral",
-    photoUrl: "/src/assets/images/raphael_dionisio_1783551110967.jpg",
+    photoUrl: raphaelDionisioImg,
     regimeBio: "Existem relatos de que ele supera o próprio Dionísio in sua libertinagem sem limites, sendo adorado e cultuado fervorosamente por todos os boêmios da República.",
     resistanceBio: "Sua residência serve como o templo secreto das maiores orgias de catnip e festividades de sachê já registradas, desmoralizando completamente as patrulhas puritanas do Soquinho.",
     tilt: "-rotate-3",
@@ -102,7 +124,7 @@ export const MEMBERS_DATA: Member[] = [
     birthday: "23 de Julho",
     roleRegime: "Administrador Chefe da Saúde e Vigilância",
     roleResistance: "Controlador Secreto de Acessos e Censor Supremo",
-    photoUrl: "/src/assets/images/kosaki_ruan_1783551119892.jpg",
+    photoUrl: kosakiRuanImg,
     regimeBio: "\"O julgamento\" (Ruan) manda na saúde e na vigilância com rigor. Ele é a autoridade máxima que decide quem entra ou sai das fronteiras da República e dita as regras de censura de documentos e mídias.",
     resistanceBio: "Usando seu poder de censura e controle de fronteiras, ele facilita a entrada e saída secreta de aliados sob disfarces burocráticos e apaga quaisquer relatórios de atividades suspeitas do sistema do Soquinho.",
     tilt: "rotate-2",
@@ -118,7 +140,7 @@ export const MEMBERS_DATA: Member[] = [
     birthday: "23 de Julho",
     roleRegime: "Civil, Atriz",
     roleResistance: "Consultora de Moda, Beleza e Design de Interiores",
-    photoUrl: "/src/assets/images/lilica_karen_1783551128519.jpg",
+    photoUrl: lilicaKarenImg,
     regimeBio: "Lilica é uma gata civil comum e renomada atriz, amplamente relacionada ao mundo da moda, beleza e design. Ela traz elegância e sofisticação para as telas e bairros da República.",
     resistanceBio: "Por trás do glamour de diva civil, ela atua secretamente ditando tendências estéticas de libertação. Lilica redesenha uniformes de guerrilha feline com alta costura e projeta esconderijos esteticamente impecáveis.",
     tilt: "-rotate-1",
@@ -134,7 +156,7 @@ export const MEMBERS_DATA: Member[] = [
     birthday: "06 de Agosto",
     roleRegime: "Líder dos Movimentos de Marketing Exteriores e Artísticos no Teatro",
     roleResistance: "Doutrinador dos Zoomies às 3h da Manhã",
-    photoUrl: "/src/assets/images/berty_thespian_1783551136809.jpg",
+    photoUrl: bertyThespianImg,
     regimeBio: "Berty coordena as brilhantes campanhas de relações públicas e os espetáculos teatrais da República, garantindo que toda divulgação externa seja esteticamente perfeita e cativante.",
     resistanceBio: "Berty provou filosoficamente que pular em cima da barriga do líder adormecido às 3h é um ato heróico de desobediência civil. Seu portfólio de memes subversivos é inestimável.",
     tilt: "rotate-4",
@@ -150,7 +172,7 @@ export const MEMBERS_DATA: Member[] = [
     birthday: "15 de Agosto",
     roleRegime: "Administrador das Relações Públicas",
     roleResistance: "Gato Mais Questionador e Imoral da República",
-    photoUrl: "/src/assets/images/leandro_orange_cat_1783553565823.jpg",
+    photoUrl: leandroOrangeCatImg,
     regimeBio: "\"O Diabo\" (Leandro) é o Administrador das Relações Públicas da República. Ele é publicamente conhecido por ser o gato mais imoral e questionador de todos, colocando em dúvida qualquer dogma do Regime com sua ironia fina.",
     resistanceBio: "Ele usa sua posição oficial e sua retórica afiada para questionar incansavelmente cada decisão e capricho do Soquinho, agindo como a mente mais cética, imoral e subversiva de toda a resistência.",
     tilt: "-rotate-2",
@@ -166,7 +188,7 @@ export const MEMBERS_DATA: Member[] = [
     birthday: "15 de Outubro",
     roleRegime: "Cidadão Comum da República",
     roleResistance: "Frequente nas Ligações Soquinho e Subtramas Escabrosas",
-    photoUrl: "/src/assets/images/isidoro_grey_tabby_1783553579515.jpg",
+    photoUrl: isidoroGreyTabbyImg,
     regimeBio: "Isidoro vive a pacata vida de um cidadão comum sob o olhar atento do regime, tentando focar em suas sestas diárias sem chamar a atenção do Soberano.",
     resistanceBio: "Presença garantida nas lendárias Ligações Soquinho, Isidoro é o mestre dos bastidores, constantemente envolvido em subtramas misteriosas e escabrosas que sacodem as estruturas secretas da República.",
     tilt: "rotate-1",
@@ -182,7 +204,7 @@ export const MEMBERS_DATA: Member[] = [
     birthday: "17 de Outubro",
     roleRegime: "Líder Suprema e Administradora Executiva (Ditadora)",
     roleResistance: "Líder Aleatória, Empática com Punhos de Ferro",
-    photoUrl: "/src/assets/images/min_siamese_crown_cozy_1783553864080.jpg",
+    photoUrl: minSiameseCrownCozyImg,
     regimeBio: "Min é a Líder Suprema e administradora executiva (ditadora) da República. Responsável por comandar o grupo com punhos de ferro, mantém um status imponente e toma decisões cruciais para a manutenção do regime Soquinho.",
     resistanceBio: "Embora governe com rigidez e já tenha enviado inúmeros gatinhos para o exílio, Min é uma líder carismática que se dá incrivelmente bem com todos. Seu comportamento empático e imprevisível a torna fascinante.",
     tilt: "-rotate-4",
@@ -198,7 +220,7 @@ export const MEMBERS_DATA: Member[] = [
     birthday: "01 de Novembro",
     roleRegime: "Desenhista Oficial do Reino e Obra do Culto",
     roleResistance: "Filósofa Desaparecida de Palavras Cirúrgicas",
-    photoUrl: "/src/assets/images/mavis_nakeri_1783551173273.jpg",
+    photoUrl: mavisNakeriImg,
     regimeBio: "Mavis é a desenhista oficial do reino. Sendo uma gata preta majestosa, ela é profundamente reverenciada e venerada por todos os outros integrantes da República em seu fervoroso culto aos gatos pretos.",
     resistanceBio: "Conhecida por sumir misteriosamente do mapa, Mavis sempre ressurge nos momentos cruciais. Ela fala pouco, mas suas falas e reflexões são extremamente cirúrgicas e precisas.",
     tilt: "rotate-3",
@@ -214,7 +236,7 @@ export const MEMBERS_DATA: Member[] = [
     birthday: "13 de Novembro",
     roleRegime: "Chefe da Milícia Anti-Invasão de Baratas",
     roleResistance: "General de Artilharia Pesada das 3h da Manhã",
-    photoUrl: "/src/assets/images/tricolor_paola_1783551182004.jpg",
+    photoUrl: tricolorPaolaImg,
     regimeBio: "Paola mantém as fronteiras livres de insetos e pequenos lagartos, sendo condecorada três vezes com a Medalha do Peixe de Bronze pelo Soquinho.",
     resistanceBio: "Ela é a força bruta da revolução. Derruba copos de vidro, arromba portas trancadas com cabeçadas e lidera os protestos físicos contra o veto de banhos de sol no tapete principal.",
     tilt: "rotate-2",
@@ -230,7 +252,7 @@ export const MEMBERS_DATA: Member[] = [
     birthday: "14 de Novembro",
     roleRegime: "Cidadão Comum (Lealdade Jurada)",
     roleResistance: "Ex-Líder de Revoltas e Cidadão Perigoso",
-    photoUrl: "/src/assets/images/incinerador_jao_1783551190579.jpg",
+    photoUrl: incineradorJaoImg,
     regimeBio: "O Incinerador iniciou inúmeras revoltas históricas contra o sistema Soquinho, mas acabou jurando lealdade formal ao governo. Atualmente vive como cidadão sob o status de Neutro.",
     resistanceBio: "Fique de olho nele! Embora tenha jurado lealdade e pareça tranquilo, ele continua sendo extremamente perigoso para o regime, agindo como um rebelde cuja centelha pode reacender a qualquer momento.",
     tilt: "-rotate-3",
@@ -246,7 +268,7 @@ export const MEMBERS_DATA: Member[] = [
     birthday: "19 de Novembro",
     roleRegime: "Cidadã Comum da República",
     roleResistance: "Animadora de Eventos Cívicos e do Grupo",
-    photoUrl: "/src/assets/images/nina_tricolor_cat_1783553592941.jpg",
+    photoUrl: ninaTricolorCatImg,
     regimeBio: "Nina é uma cidadã Soquinho comum e exemplar. Ela participa ativamente de todos os eventos cívicos com um sorriso no rosto e respeito ao Soberano.",
     resistanceBio: "Nina é a responsável por manter a alegria do grupo sempre viva. Ela anima a todos com sua energia brilhante e está sempre presente para animar os ânimos de seus companheiros.",
     tilt: "rotate-4",
@@ -262,7 +284,7 @@ export const MEMBERS_DATA: Member[] = [
     birthday: "08 de Dezembro",
     roleRegime: "Civil Comum, Divulgadora da Palavra do Gato da Luz e Guardiã do Futuro dos Mini Gatinhos Soquinhos",
     roleResistance: "Protetora Clandestina da Nova Geração e Missionária da Luz",
-    photoUrl: "/src/assets/images/rebeca_gata_luz_1783551206588.jpg",
+    photoUrl: rebecaGataLuzImg,
     regimeBio: "Rebeca atua na comunidade como civil comum, propagando com serenidade as palavras de paz e iluminação do Gato da Luz, além de zelar com amor pelo desenvolvimento e bem-estar dos futuros filhotes da República.",
     resistanceBio: "Sob seu manto de pacificadora e educadora de filhotes, ela ensina secretamente ideais revolucionários de liberdade para a próxima geração de gatinhos e desvia suprimentos de sachê de bebê para o orfanato secreto da resistência.",
     tilt: "-rotate-1",
@@ -278,7 +300,7 @@ export const MEMBERS_DATA: Member[] = [
     birthday: "28 de Dezembro",
     roleRegime: "Administrador Público da Saúde Mental e Alimentação dos Soquinhos",
     roleResistance: "Psicólogo de Sachês e Mapeador de Personalidade Felina",
-    photoUrl: "/src/assets/images/gio_psicologo_1783551215966.jpg",
+    photoUrl: gioPsicologoImg,
     regimeBio: "Empático, estudando a mente dos gatinhos, recomenda sachês e responsável pelos estudos de tipologia da República.",
     resistanceBio: "\"a Justiça\" (Gio) usa seus estudos de tipologia e eneagrama para desvendar as fraquezas emocionais dos guardas do regime. Ele receita secretamente doses cavalares de sachês terapêuticos para acalmar a ansiedade dos gatinhos revolucionários.",
     tilt: "rotate-3",
@@ -662,7 +684,7 @@ export const QUIZ_RESULTS: ResultCat[] = [
     colorHex: "#C5B49F",
     accentBg: "bg-amber-100/50",
     tags: ["Comunicador", "Burocrata", "Dramático", "Estrategista"],
-    imageUrl: "/src/assets/images/siamese_bureaucrat_1783551029182.jpg"
+    imageUrl: siameseBureaucratImg
   },
   {
     breed: "frajola",
@@ -672,7 +694,7 @@ export const QUIZ_RESULTS: ResultCat[] = [
     colorHex: "#1C1B19",
     accentBg: "bg-stone-200/60",
     tags: ["Anarquista", "Estiloso", "Ágil", "Desobediente"],
-    imageUrl: "/src/assets/images/tuxedo_rebel_1783551037245.jpg"
+    imageUrl: tuxedoRebelImg
   },
   {
     breed: "laranja",
@@ -682,7 +704,7 @@ export const QUIZ_RESULTS: ResultCat[] = [
     colorHex: "#D95D39",
     accentBg: "bg-orange-100/50",
     tags: ["Acrobata", "Inocente", "Caótico Puro", "Amigável"],
-    imageUrl: "/src/assets/images/orange_alienated_1783551046312.jpg"
+    imageUrl: orangeAlienatedImg
   },
   {
     breed: "preto",
@@ -692,7 +714,7 @@ export const QUIZ_RESULTS: ResultCat[] = [
     colorHex: "#2E2A25",
     accentBg: "bg-neutral-800/20",
     tags: ["Espião", "Místico", "Silencioso", "Guardião"],
-    imageUrl: "/src/assets/images/black_mystic_1783551055889.jpg"
+    imageUrl: blackMysticImg
   },
   {
     breed: "escama",
@@ -702,7 +724,7 @@ export const QUIZ_RESULTS: ResultCat[] = [
     colorHex: "#7E523A",
     accentBg: "bg-amber-900/10",
     tags: ["Feroz", "Protetora", "Temperamental", "Magnética"],
-    imageUrl: "/src/assets/images/tortoiseshell_goddess_1783551065194.jpg"
+    imageUrl: tortoiseshellGoddessImg
   },
   {
     breed: "persa",
@@ -712,6 +734,6 @@ export const QUIZ_RESULTS: ResultCat[] = [
     colorHex: "#E5DEC9",
     accentBg: "bg-yellow-50/70",
     tags: ["Aristocrata", "Apatia Elegante", "Dorminhoco", "Premium"],
-    imageUrl: "/src/assets/images/persian_noble_1783551073975.jpg"
+    imageUrl: persianNobleImg
   }
 ];
